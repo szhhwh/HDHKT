@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# IDE Settings
+/.vscode
+*.code-workspace
+.idea/
+
+# Logs
+swanlog/
+runs/
+
+# Data files
+data/
+*.csv
+*.npy
+*.npz
+*.parquet
+*.zip
+
+# Model checkpoints
+*.ckpt
+*.pt
+*.pth
+.env
+
+# Cache
+.cache/
+
+# System files
+.DS_Store
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml

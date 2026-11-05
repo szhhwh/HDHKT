@@ -1,7 +1,6 @@
 # HDHKT
 
-This repository contains the official implementation for the paper *"HDHKT: Heterogeneous Graph and Diﬃculty-aware
-Hypergraph Fusion for Knowledge Tracing"*.
+This repository contains the official implementation for the paper *"[HDHKT: Heterogeneous graph and difficulty-aware hypergraph fusion for knowledge tracing](https://doi.org/10.1016/j.patcog.2026.115226)"*.
 
 ## Project Structure
 
@@ -55,3 +54,20 @@ bash scripts/run_kfold.sh HDHKT "0 1 2 3 4" -d assistments09
 ```
 
 Training outputs are saved under `runs/normal/`.
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{wang2027hdhkt,
+  title   = {{HDHKT}: Heterogeneous graph and difficulty-aware hypergraph fusion for knowledge tracing},
+  author  = {Wang, Hao and Peng, Xianglian and Lu, Weigang and Qin, Jing and Zhang, Shugang},
+  journal = {Pattern Recognition},
+  volume  = {183},
+  pages   = {115226},
+  year    = {2027},
+  doi     = {10.1016/j.patcog.2026.115226},
+  url     = {https://doi.org/10.1016/j.patcog.2026.115226}
+}
+```
